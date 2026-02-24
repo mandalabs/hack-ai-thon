@@ -1,5 +1,5 @@
-import { Users } from '@/payload/collections';
-import { defaultLexical } from '@/payload/fields/defaultLexical';
+import { Users } from './collections/Users';
+import { defaultLexical } from './fields/defaultLexical';
 import { postgresAdapter } from '@payloadcms/db-postgres';
 import path from 'path';
 import { buildConfig } from 'payload';
